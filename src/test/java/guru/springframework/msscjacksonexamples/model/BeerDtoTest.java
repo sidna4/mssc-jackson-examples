@@ -15,10 +15,6 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 @JsonTest
 class BeerDtoTest extends BaseTest {
-
-    @Autowired
-    ObjectMapper objectMapper;
-
     @Test
     void testSerializeDto() throws JsonProcessingException {
         BeerDto beerDto = getDto();
